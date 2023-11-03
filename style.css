@@ -1,0 +1,64 @@
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin: 0rem 25rem;
+background-color: #2C4770;
+color: #718DA5;
+border: 2px solid #142E54;
+border-radius: 1rem;
+box-sizing: border-box;
+box-shadow: 0.1rem 0.1rem 0.4rem black;
+position: relative;
+}
+
+.userInput {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.taskCount{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.listCount{
+	margin-left: 0.5rem;
+}
+
+input{
+	margin-right: 1rem;
+}
+
+.wrapper{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.done{
+	text-decoration: line-through;
+	color: solid green;
+}
+
+ul{
+	display: block;
+}
+
+.delClass{
+	display: flex;
+	color: solid red;
+	
+}
+
+.taskClass{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-right: 1rem;
+	color: whitesmoke;
+	list-style: none;
+}
+
